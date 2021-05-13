@@ -1,4 +1,4 @@
-.item-list {
+.drag-drop-list {
   width: 300px;
   min-height: 300px;
   margin: 20px;
@@ -7,12 +7,4 @@
   list-style-type: none;
 
   border: 1px solid rgb(0, 0, 0);
-}
-
-.item-list__item {
-  padding: 5px;
-}
-
-.item-list__item:hover {
-  background-color: rgb(86, 218, 233);
 }
