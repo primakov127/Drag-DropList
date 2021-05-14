@@ -1,10 +1,22 @@
-.drag-drop-list {
+.drag-drop-list__list {
   width: 300px;
   min-height: 300px;
-  margin: 20px;
+  margin: 0;
   padding: 0;
 
   list-style-type: none;
 
   border: 1px solid rgb(0, 0, 0);
+}
+
+.drag-drop-list__input-text {
+  flex: 1;
+
+  margin-right: 5px;
+}
+
+.drag-drop-list__add-bar {
+  display: flex;
+
+  margin-top: 10px;
 }
